@@ -1,0 +1,18 @@
+baseURL = "https://username.github.io/personal-website/"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "KeepIt"
+
+[params]
+  author = "Your Name"
+  description = "A description of your site."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
